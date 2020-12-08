@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app-wrapper">
+      <div class="sidebar-wrapper">
+        <div class="sidebar-header">Dashboard Kit</div>
+        <div class="sidebar-items">
+          <div class="sidebar-item active">Overview</div>
+          <div class="sidebar-item">Tickets</div>
+          <div class="sidebar-item">Ideas</div>
+          <div class="sidebar-item">Contacts</div>
+          <div class="sidebar-item">Agents</div>
+          <div class="sidebar-item">Articles</div>
+        </div>
+      </div>
+      <div class="main-wrapper">
+        <div class="navbar-wrapper">
+          <div class="navbar-title">Overview</div>
+          <div class="navbar-right-items">
+            <div class="navbar-user-wrapper">
+              <div class="left-side-user-wrapper">
+                <div class="search-icon">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="6.5"
+                      cy="6.5"
+                      r="5.75"
+                      stroke="#C5C7CD"
+                      stroke-width="1.5"
+                    />
+                    <path
+                      d="M11 11L15 15"
+                      stroke="#C5C7CD"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+                <div class="notifications">
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.99999 19C9.10374 19 9.99905 18.1047 9.99905 17H6.00093C6.00093 18.1047 6.89624 19 7.99999 19ZM14.7309 14.3216C14.1272 13.6728 12.9975 12.6969 12.9975 9.5C12.9975 7.07188 11.295 5.12812 8.99937 4.65125V4C8.99937 3.44781 8.55187 3 7.99999 3C7.44812 3 7.00062 3.44781 7.00062 4V4.65125C4.70499 5.12812 3.00249 7.07188 3.00249 9.5C3.00249 12.6969 1.8728 13.6728 1.26905 14.3216C1.08155 14.5231 0.998429 14.7641 0.999991 15C1.00343 15.5125 1.40562 16 2.00312 16H13.9969C14.5944 16 14.9969 15.5125 15 15C15.0016 14.7641 14.9184 14.5228 14.7309 14.3216Z"
+                      fill="#C5C7CD"
+                    />
+                    <circle
+                      cx="13"
+                      cy="5"
+                      r="3.75"
+                      fill="#3751FF"
+                      stroke="#F7F8FC"
+                      stroke-width="1.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="line-vertical"></div>
+              <div class="user-name">Jones Ferdinand</div>
+              <div class="user-photo"></div>
+            </div>
+          </div>
+        </div>
+        <div class="content-wrapper">
+          <div class="cards-wrapper">
+            <div class="card">
+              <div class="card-title">Unresolved</div>
+              <div class="card-value">60</div>
+            </div>
+            <div class="card">
+              <div class="card-title">Overdue</div>
+              <div class="card-value">16</div>
+            </div>
+            <div class="card">
+              <div class="card-title">Open</div>
+              <div class="card-value">43</div>
+            </div>
+            <div class="card">
+              <div class="card-title">On hold</div>
+              <div class="card-value">64</div>
+            </div>
+          </div>
+          <div class="today-trends-wrapper">
+            <div class="main-info">
+              <div class="main-info-title">Today's trends</div>
+              <div class="date-graph-help-wrapper">
+                <div class="main-info-date">as of 25 May 2019, 09:41 PM</div>
+                <div class="main-info-graph-help">
+                  <div class="today">Today</div>
+                  <div class="yesterday">Yesterday</div>
+                </div>
+              </div>
+              <img src="assets/img/full-graph.png" alt="graph" />
+            </div>
+            <div class="additional-info">
+              <div class="additional-info-item">
+                <div class="additional-info-item-title">Resolved</div>
+                <div class="additional-info-item-value">449</div>
+              </div>
+              <div class="additional-info-item">
+                <div class="additional-info-item-title">Received</div>
+                <div class="additional-info-item-value">426</div>
+              </div>
+              <div class="additional-info-item">
+                <div class="additional-info-item-title">
+                  Average first response time
+                </div>
+                <div class="additional-info-item-value">33m</div>
+              </div>
+              <div class="additional-info-item">
+                <div class="additional-info-item-title">
+                  Average response time
+                </div>
+                <div class="additional-info-item-value">3h 8m</div>
+              </div>
+              <div class="additional-info-item">
+                <div class="additional-info-item-title">
+                  Resolution within SLA
+                </div>
+                <div class="additional-info-item-value">94%</div>
+              </div>
+            </div>
+          </div>
+          <div class="tickets-tasks-wrapper">
+            <div class="ticket-tasks-card-wrapper">
+              <div class="card-header">
+                <div class="card-tickets-tasks-title">Unresolved tickets</div>
+                <div class="card-btn">View details</div>
+              </div>
+              <div class="card-group-wrapper">Group:<span> Support</span></div>
+              <div class="unresolved-ticket">
+                <div class="ticket-title">Waiting on Feature Request</div>
+                <div class="ticket-value">4238</div>
+              </div>
+              <div class="unresolved-ticket">
+                <div class="ticket-title">Awaiting Customer Response</div>
+                <div class="ticket-value">1005</div>
+              </div>
+              <div class="unresolved-ticket">
+                <div class="ticket-title">Awaiting Developer Fix</div>
+                <div class="ticket-value">914</div>
+              </div>
+              <div class="unresolved-ticket">
+                <div class="ticket-title">Pending</div>
+                <div class="ticket-value">281</div>
+              </div>
+            </div>
+            <div class="ticket-tasks-card-wrapper">
+              <div class="card-header">
+                <div class="card-tickets-tasks-title">Tasks</div>
+                <div class="card-btn">View all</div>
+              </div>
+              <div class="card-group-wrapper">Today</div>
+              <div class="unresolved-ticket">
+                <div class="task-create-wrapper">
+                  <input
+                    type="text"
+                    class="task-create"
+                    placeholder="Create new task"
+                  />
+                </div>
+                <div class="btn-add-task">
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 1V11"
+                      stroke="#9FA2B4"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M11 6L1 6"
+                      stroke="#9FA2B4"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="unresolved-ticket">
+                <div class="left-side-task">
+                  <div class="task-checker"></div>
+                  <div class="task-title">Finish ticket update</div>
+                </div>
+                <div class="task-status urgent-status">Urgent</div>
+              </div>
+              <div class="unresolved-ticket">
+                <div class="left-side-task">
+                  <div class="task-checker"></div>
+                  <div class="task-title">Create new ticket example</div>
+                </div>
+                <div class="task-status new-status">New</div>
+              </div>
+              <div class="unresolved-ticket">
+                <div class="left-side-task">
+                  <div class="task-checker task-done">✔</div>
+                  <div class="task-title">Update ticket report</div>
+                </div>
+                <div class="task-status default-status">Default</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
